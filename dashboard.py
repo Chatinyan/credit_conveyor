@@ -86,7 +86,7 @@ st.markdown(
         font-weight: 700;
     }}
 
-    /* KPI քարտեր (st.metric)՝ փափուկ քարտիկներ ստվերով */
+    /* KPI քարտեր (st.metric)՝ ստվերով */
     [data-testid="stMetric"] {{
         background: linear-gradient(140deg, #ffffff 0%, {FAST_BG_LIGHT} 100%);
         padding: 18px 20px;
