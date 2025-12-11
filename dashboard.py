@@ -19,8 +19,8 @@ def get_connection():
         password="admin"
     )
 # -------- FASTBANK STYLE --------
-FAST_PRIMARY = "#7F2CE1"      # հիմնական մանուշակագույն
-FAST_DARK = "#2E145A"
+FAST_PRIMARY = "#FF00FF"      # հիմնական մանուշակագույն
+FAST_DARK = "#CC00CC"
 FAST_BG_LIGHT = "#F7F2FF"
 FAST_TEXT_DARK = "#1B102F"
 
