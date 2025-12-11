@@ -212,7 +212,7 @@ phase_df = load_phase_duration()
 kpi_violated_df = load_kpi_violated_loans()
 
 # -------- TITLE --------
-st.title("🏦 Loan Credit Conveyor Dashboard")
+st.title("🏦 Վարկային Հոսքագծի Վերլուծական Վահանակ")
 st.caption("Վարկային հոսքագծի վիզուալ վերլուծություն՝ ըստ վարկատեսակի, մասնաճյուղի և KPI կատարողականի։")
 
 # -------- SIDEBAR FILTERS --------
@@ -233,7 +233,7 @@ with st.sidebar:
     client_filter = st.selectbox("Հաճախորդ", client_opt)
     branch_filter = st.selectbox("Մասնաճյուղ", branch_opt)
     status_filter = st.selectbox("Վարկի կարգավիճակ", status_opt)
-    date_range = st.date_input("Դիմումի ամսաթիվ (ռեյնջ)", [])
+    date_range = st.date_input("Դիմումի ամսաթիվ", [])
 
     # փակում ենք div-երը
     st.markdown("</div></div>", unsafe_allow_html=True)
